@@ -26,4 +26,25 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function about()
+    {
+        return view ('about');
+    }
+    public function first()
+    {
+        return view ('first');
+    }
+    public function second()
+    {
+        return view ('second');
+    }
+    public function last()
+    {
+        return view ('last');
+    }
+    public function contact()
+    {
+        return view ('contact');
+    }
+
 }
