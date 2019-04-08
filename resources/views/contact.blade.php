@@ -10,11 +10,19 @@
                 <li class="breadcrumb-item"><a href="/home">Home</a></li>
                 <li class="breadcrumb-item active">Contact        </li>
             </ol>
-            <!-- Hero Content-->
-            <div class="hero-content pb-5 text-center">
-                <h1 class="hero-heading">Contact</h1>
-                <div class="row">
-                    <div class="col-xl-8 offset-xl-2"><p class="lead text-muted">Are you curious about something?  </p></div>
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="feature-heading"> Are you curious about something?</span></h2>
+                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <div class="mb-30px"><a href="first"><img
+                                    src="http://www.free-icons-download.net/images/contact-us-icon-45812.png"
+                                    alt="..." class="img-fluid"></a>
+
+                    </div>
                 </div>
             </div>
         </div>

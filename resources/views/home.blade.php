@@ -15,7 +15,7 @@
                     @endif
 
                     You are logged in!
-                        <div class="mb-30px"><a href="second"><img
+                        <div class="mb-30px"><a href="home"><img
                                         src="https://images.freeimages.com/images/large-previews/9a3/site-is-under-construction-2-1241832.jpg"
                                         alt="..." class="img-fluid"></a>
                         </div>
