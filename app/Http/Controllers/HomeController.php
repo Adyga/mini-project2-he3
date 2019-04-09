@@ -46,5 +46,15 @@ class HomeController extends Controller
     {
         return view ('contact');
     }
+    public function contactstore(Request $request)
+    {
+//        dd($request);
+        $name = $request->name;
+        return redirect()->route('thankyou', ['name' => $name]);
+    }
+    public function thankyou($name ,Request $request)
+    {
+        return view ('thankyou')->with(compact('name'));
+    }
 
 }
