@@ -33,6 +33,8 @@
         <div class="col-md-5 order-md-1">
             <div class="mb-30px"><a><img src="https://images.freeimages.com/images/large-previews/c99/globe-with-internet-symbol-plant-1633954.jpg" alt="..." class="img-fluid"></a>
                 <p> <a href="about" class="btn btn-light">Return to about</a></p>
+                <p> <a href="second" class="btn btn-light">The Second Step</a></p>
+                <p> <a href="last" class="btn btn-light">The Last Step</a></p>
             </div>
         </div>
     </div>
