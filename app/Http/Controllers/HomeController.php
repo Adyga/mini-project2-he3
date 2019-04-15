@@ -26,11 +26,7 @@ class HomeController extends Controller
     {
         return view('home');
     }
-    public function about()
-    {
-        return view ('about');
-    }
-    public function first()
+     public function first()
     {
         return view ('first');
     }
@@ -42,19 +38,6 @@ class HomeController extends Controller
     {
         return view ('last');
     }
-    public function contact()
-    {
-        return view ('contact');
-    }
-    public function contactstore(Request $request)
-    {
-//        dd($request);
-        $name = $request->name;
-        return redirect()->route('thankyou', ['name' => $name]);
-    }
-    public function thankyou($name ,Request $request)
-    {
-        return view ('thankyou')->with(compact('name'));
-    }
+
 
 }
